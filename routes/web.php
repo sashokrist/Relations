@@ -20,3 +20,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('hasOne', 'OneToOneController@index')->name('nasOne');
+Route::get('hasOneStore', 'OneToOneController@store')->name('nasOneStore');
+Route::get('mailing/{token}', 'MaillingController@unsubscribe')->name('mailing');
