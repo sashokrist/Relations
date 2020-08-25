@@ -9,7 +9,7 @@
 
                     <div class="card-body">
                         @foreach($topics as $topic)
-                            <a href="{{ route('hasManyShow', $topic) }}"><h4>{{ $topic->title }}</h4></a>
+                            <h4>   <a href="{{ route('hasManyShow', $topic) }}">{{ $topic->title }}</a>({{ $topic->posts->count() }})</h4>
                             <p>by {{ $topic->user->name }}</p>
                         @endforeach
                     </div>

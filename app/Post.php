@@ -4,15 +4,15 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Topic extends Model
+class Post extends Model
 {
     public function user()
     {
         return $this->belongsTo(User::class);
     }
 
-    public function posts()
+    public function topics()
     {
-        return $this->hasMany(Post::class);
+        return $this->belongsTo(Topic::class);
     }
 }

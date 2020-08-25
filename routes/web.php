@@ -21,3 +21,4 @@ Route::get('hasMany', 'HasMany\TopicController@index')->name('hasManyIndex');
 Route::get('hasManyStore', 'HasMany\TopicController@store')->name('hasManyStore');
 Route::get('hasManyShow/{topic}', 'HasMany\TopicController@show')->name('hasManyShow');
 Route::get('hasManyUserTopic', 'HasMany\UserTopicController@index')->name('hasManyUserTopic');
+Route::get('hasManyPostStore', 'HasMany\PostController@store')->name('hasManyPostStore');

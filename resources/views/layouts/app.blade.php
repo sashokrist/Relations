@@ -57,6 +57,7 @@
                                 <a class="nav-link" href="{{ route('hasManyIndex') }}">{{ __('HasManyIndex') }}</a>
                                 <a class="nav-link" href="{{ route('hasManyStore') }}">{{ __('HasManyStore') }}</a>
                                 <a class="nav-link" href="{{ route('hasManyUserTopic') }}">{{ __('hasManyUserTopic') }}</a>
+                                <a class="nav-link" href="{{ route('hasManyPostStore') }}">{{ __('hasManyPostStore') }}</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
