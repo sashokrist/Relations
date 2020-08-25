@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="041fc264-3025-46ed-a55a-1e6baf21376a" name="Default Changelist" comment="" />
+    <list default="true" id="041fc264-3025-46ed-a55a-1e6baf21376a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HasMany/TopicController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HasMany/UserTopicController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Topic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_25_070121_create_topics_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/topics/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/topics/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/topics/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -122,14 +137,27 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gXDOzNHu1ly6m6lhoL75vaZxN8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/user/topics" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\relation\resources\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\relation\resources\user\topics" />
+      <recent name="C:\xampp\htdocs\relation\resources\views\topics" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -146,21 +174,45 @@
       <option name="presentableId" value="Default" />
       <updated>1598252016131</updated>
       <workItem from="1598252017199" duration="8087000" />
+      <workItem from="1598269728166" duration="5961000" />
     </task>
+    <task id="LOCAL-00001" summary="OneToOne">
+      <created>1598269762106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598269762106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="OneToOne" />
+    <option name="LAST_COMMIT_MESSAGE" value="OneToOne" />
   </component>
   <component name="WindowStateProjectService">
     <state x="807" y="266" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598254265883">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="807" y="266" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1598254265883" />
-    <state x="855" y="530" key="NewPhpFileDialog" timestamp="1598255700500">
+    <state x="653" y="92" key="CommitChangelistDialog2" timestamp="1598269761559">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state x="855" y="530" key="NewPhpFileDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1598255700500" />
+    <state x="653" y="92" key="CommitChangelistDialog2/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1598269761559" />
+    <state x="855" y="530" key="NewPhpFileDialog" timestamp="1598341607906">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="855" y="530" key="NewPhpFileDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1598341607906" />
+    <state x="630" y="339" key="Vcs.Push.Dialog.v2" timestamp="1598269764177">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="630" y="339" key="Vcs.Push.Dialog.v2/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1598269764177" />
     <state x="701" y="307" width="672" height="678" key="search.everywhere.popup" timestamp="1598253271723">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>

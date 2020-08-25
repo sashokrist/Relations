@@ -2,16 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
 Route::get('/', function () {
     return view('welcome');
@@ -21,6 +11,13 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('hasOne', 'OneToOneController@index')->name('nasOne');
-Route::get('hasOneStore', 'OneToOneController@store')->name('nasOneStore');
+//hasONe
+Route::get('hasOne', 'OneToOneController@index')->name('hasOne');
+Route::get('hasOneStore', 'OneToOneController@store')->name('hasOneStore');
 Route::get('mailing/{token}', 'MaillingController@unsubscribe')->name('mailing');
+
+//hasMany
+Route::get('hasMany', 'HasMany\TopicController@index')->name('hasManyIndex');
+Route::get('hasManyStore', 'HasMany\TopicController@store')->name('hasManyStore');
+Route::get('hasManyShow/{topic}', 'HasMany\TopicController@show')->name('hasManyShow');
+Route::get('hasManyUserTopic', 'HasMany\UserTopicController@index')->name('hasManyUserTopic');
